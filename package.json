@@ -1,7 +1,7 @@
 {
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "name": "unocss-transformer-template",
   "author": "Italo Almeida",
   "description": "UnoCSS transformer for creating reusable CSS templates, variants, and components using @template-content, @template-variant, @template-component directives and @for loops.",

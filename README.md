@@ -143,7 +143,7 @@ Templates can reference other templates for composition:
 transformerTemplate({
   // Do not use a separate scope for each block of code.
   // Default: false
-  weekScope: false,
+  weakScope: false,
   
   // Log syntax errors to console
   // Default: false
@@ -151,7 +151,7 @@ transformerTemplate({
 })
 ```
 
-### weekScope
+### weakScope
 
 When set to `false` (default), each block of code gets its own isolated scope. When set to `true`, all definitions share the same scope.
 
